@@ -127,12 +127,18 @@ h1 {
     display: none;
 }
 
+.mobil-jusify-center{
+    justify-content: inherit;
+}
+
 .content-text-theme{
     text-align: inherit;
 }
 .w-75-theme{
     width: 75%;
 }
+
+
 @media (max-width: 768px) {
     /* Estilos para pantallas con un ancho máximo de 768px */
 
@@ -143,7 +149,7 @@ h1 {
     .pe-5-theme{
         display: flex;
         padding-right: 0;
-        padding-bottom: 3rem;
+        padding-bottom: 1rem;
         justify-content: center;
     }
 
@@ -165,7 +171,12 @@ h1 {
         display: none;
     }
     .mobil-screen{
-        display: block;
+        display: flex;
+    }
+    .mobil-align-center{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
     }
 }
   
